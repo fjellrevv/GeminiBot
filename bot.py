@@ -14,7 +14,7 @@ bot = telebot.TeleBot("", parse_mode=None)
 command = "start"
 
 # Вставка ключа Gemini
-os.environ["GOOGLE_API_KEY"] = "AIzaSyC9_igugvIzqj3Zm2NDAENIFczjw7gCfKk"
+os.environ["GOOGLE_API_KEY"] = ""
 
 # Загрузка документа
 text = ""
